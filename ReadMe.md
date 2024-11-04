@@ -1,9 +1,5 @@
-# Example Markdown File
-This is an example Markdown file to test the preview tool
-## Features:
-* Support for links [PragProg](https://pragprog.com)
-* Support for other features by Ashish
-## How to install:
-```
-go get github.com/user/program
-```
+# Markdown Preview Tool
+Given a markdown file, it previews the markdown file in the browser.
+## How to run the code:
+go run . -file filename.md -s skipPreviewBool -t alternativeTemplate
+
